@@ -591,12 +591,18 @@ body {
 .love__img.animationOp{
     animation: opacityHeart 1s 1s forwards;
 }
-.content__letter .right .text__letter{
-    margin-top: 60px;
-    padding: 20px 15px 10px 15px;
+
+/* YAHAN HUYE HAIN CHANGES (DESKTOP VIEW) */
+.content__letter .right .text__letter {
+    margin-top: 40px;
+    padding: 10px 15px 10px 15px;
     font-family: 'Dancing Script', cursive;
-    font-size: 1.3rem;
+    font-size: 1.15rem;
+    line-height: 1.4;
+    overflow-y: auto;
+    max-height: 280px;
 }
+
 .content__letter .right #mewmew{
     position: absolute;
     bottom: 0;
@@ -741,11 +747,15 @@ body {
         padding-bottom: 70px;
     }
 
+    /* YAHAN HUYE HAIN CHANGES (MOBILE VIEW) */
     .content__letter .right .text__letter {
-        margin-top: -14px;
-        padding: 20px 15px 10px 15px;
+        margin-top: -10px;
+        padding: 10px 12px 10px 12px;
         font-family: 'Dancing Script', cursive;
-        font-size: .8rem;
+        font-size: 0.72rem;
+        line-height: 1.35;
+        max-height: 195px;
+        overflow-y: auto;
     }
 
     .content__letter .right .love__img {
